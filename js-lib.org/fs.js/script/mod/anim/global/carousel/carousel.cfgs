@@ -1,0 +1,13 @@
+	'defaults' :
+	{	Images	: 10		//(#)		images per carousel
+	,	Scale	: [300,169]	//(pixels)	WxH 
+	,	Panels	: 10		//(#)		panels per image
+	,	Space	: 0			//(pixels)	space between panels 
+	,	Spin	:
+		{	Speed	:	10	//(ms)		refresh rate
+		,	Steps	:	10	//(multi)	per degree
+		}
+	,	callback:			//(ref.)	Local Animation
+		{	anim: 'disable'	//(name)	DISABLED callback
+		}
+	}

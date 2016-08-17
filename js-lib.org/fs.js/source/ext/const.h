@@ -1,0 +1,13 @@
+//ALL SHARED CONSTANTS FOR APPLICATION GO HERE
+
+#define STR_MED 64
+
+#define MESH_STRIDE 3
+
+#define GLSL_V_POS 0
+#define GLSL_V_TXR 1
+
+#define GLSL_VEC1 1
+#define GLSL_VEC2 2
+#define GLSL_VEC3 3
+#define GLSL_VEC4 4

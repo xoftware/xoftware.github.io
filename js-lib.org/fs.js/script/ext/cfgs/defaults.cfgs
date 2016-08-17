@@ -1,0 +1,23 @@
+	root:	"script/"
+,	path:
+	{	animation
+		:	"/mod/anim/"
+	,	utility
+		:	"/mod/util/"
+	,	extension
+		:	"/ext/"
+	}
+,	exts:
+	{	animation
+		:	[	"init"
+			,	"exit"
+			,	"cfgs"
+			]
+	,	utility
+		:	[	"util"
+			]
+	,	command
+		:	[	"cmds"
+			,	"cfgs"
+			]
+	}
