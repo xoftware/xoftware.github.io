@@ -1,0 +1,73 @@
+/*
+
+<div id="template" style='display:none'>
+	<html>
+	</html>
+</div>
+
+<script>
+
+//*/
+$ = document;
+id = 'getElementById';
+
+var
+	template = function ( settings )
+	{	settings = settings || {};
+		
+		var
+			PREFIX = settings.PREFIX || "PREFIX"
+		,	LANDING = settings.LANDING || "LANDING"
+		,	TEMPLATE = settings.TEMPLATE || "TEMPLATE"
+		,	INDEX = 0
+		;
+		
+		for
+		(	var method in this
+		)	{	
+				this[method] = eval("("+this[method].toString()+")")
+			}
+	}
+;
+
+template
+.	prototype =
+	{
+		clone: function ()
+		{
+			return TEMPLATE.innerHTML =  TEMPLATE.innerHTML.replace(/id="([^"]+)(-[0-9]+)?"/g, "id=\"$1-"+INDEX+"\"")
+		}
+	,	append: function ()
+		{
+			return LANDING.appendChild(TEMPLATE.children[0])
+		}
+	,	id: function ( suffix )
+		{
+			return arguments.callee[suffix] = $[id]( PREFIX+"-"+suffix+"-"+INDEX )
+		}
+	,
+		create: function( callback )
+		{
+			this.clone();
+			callback.call( this.id );
+			this.append();
+
+			INDEX++
+		}
+	}
+;
+
+var
+	event = new template
+;
+
+while
+(	entry = data.pop()
+)	event.create
+	(	function ()
+		{
+			this('title').innerHTML = entry[0];
+			this('date').innerHTML = entry[1];
+		}
+	)
+;
