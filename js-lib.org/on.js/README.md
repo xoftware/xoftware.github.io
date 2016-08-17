@@ -25,7 +25,7 @@ the essentials of Front-end JavaScript.</p>
 <li>g.) Live In-Console Wiki</li>
 </ul>
 </td><td>
-<img src="https://github.com/xoftware/js-lib.org/raw/master/on.js/OnJavaScript.png?raw=true">
+<img src="https://github.com/xoftware/xoftware.github.io/blob/master/js-lib.org/on.js/OnJavaScript.png?raw=true">
 </td></tr></table>
 
 
