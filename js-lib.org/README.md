@@ -1,6 +1,7 @@
 # js-lib.org
+*JavaScript Libraries*
 
-### | JavaScript Libraries
+## | LIBRARIES
 
 Front-End JavaScript Library
 
@@ -14,7 +15,7 @@ Filesystem to JavaScript Framework Transpiler
 <script src="http://fs.js-lib.org"></script>
 ```
 	
-### | JavaScript Utilities
+## | UTILITIES
 
 ### Element[method]
 
