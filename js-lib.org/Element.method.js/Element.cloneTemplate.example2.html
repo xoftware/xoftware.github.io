@@ -1,0 +1,180 @@
+<html>
+
+<head>
+
+
+	<script application> onload = function (e)
+	{
+		var
+			body = $[Id]('App-Body')
+		,	ctrl = $[Id]('App-Ctrl')
+		;
+			
+		for
+		(	var i in 
+			ctrl.children
+		)	ctrl.children[ i ]
+			.	onclick = function select (e)
+				{
+					ctrl.selected = this.widget = this.children[1].children[0]
+				}
+		;
+			
+		body
+		.	onclick = function append (e)
+			{
+				var
+					widget = this.appendChild( document.cloneTemplate.call(ctrl.selected) )
+				;
+				
+				widget
+				.	onmouseover = function()
+					{
+						this.getElementById('Component.SubComponent').innerHTML = "(Click)";
+					}
+			;	widget
+				.	onclick = function()
+					{
+						this.getElementById('Component').getElementById('SubComponent').innerHTML = "(Mouse out)"
+					}
+			;	widget
+				.	onmouseout = function()
+					{
+						this.Component = this.getElementById('Component');
+						this.Component.SubComponent = this.Component.getElementById("SubComponent");
+						
+						this.Component.SubComponent.innerHTML = "(Mouse over)"
+					}
+				;
+				
+				ctrl.selected = null
+			}
+	}
+	</script>
+
+</head>
+
+<body>
+
+	<div left id="App-Ctrl">
+		
+		
+		<button>
+			<div launcher>
+				Spawn Primary Widget
+			</div>
+			<div template>
+			
+
+				<div id="Widget-Default">
+					<span id="Component">
+						A
+					</span>
+					<span id="Component.SubComponent">
+						(Mouse over)
+					</span>
+				</div>
+			
+
+			</div>
+		</button>
+		
+		
+		<button>
+			<div launcher>
+				Spawn Secondary Widget
+			</div>
+			<div template>
+			
+
+				<div id="Widget-Custom">
+					<span id="Widget-Custom.Component">
+						B
+						<span id="Widget-Custom.Component.SubComponent">
+							(Mouse over)
+						</span>
+					</span>
+					
+				</div>
+			
+
+			</div>
+		</button>
+		
+		
+		<button>
+			<div launcher>
+				Spawn Tertiary Widget
+			</div>
+			<div template>
+			
+
+				<div id="Widget-Alternate">
+					<span id="Widget-Alternate.Component.SubComponent">
+							(Mouse over)
+					</span>
+					<span id="Widget-Alternate.Component">
+						C
+					</span>
+				</div>
+			
+
+			</div>
+		</button>
+		
+		
+	</div>
+	<div right id="App-Body">
+		<!--
+			
+			
+			
+		!-->
+	</div>
+
+	<style>
+		body > *			{	margin: -1px;	padding: 0px;	border:	1px solid black;	height: 100%;	float: left;	text-align:center;	}
+		[left]				{	width:	25%;	background: #efefef;	}
+		[right]				{	width:	75%;	background:	#ababab;	}
+		button				{	width:	99%;	}
+		button [launcher]	{	background: #abefab;	border: 4px solid #abefab;	}
+		button [template]	{	display: none;	}
+		div					{	border: 1px solid black;	}
+	</style>
+
+	<script polyfill>
+	
+		;;;;;;;;;;;;;;
+		;	$ = document				;
+		;	Id = 'getElementById'		;
+						;;;;;;;;;;;;;;;;;
+
+		document
+		.	getElementByNamespaceId = function(){return document.getElementById(this.id+"."+arguments[0])}
+		;
+
+		document
+		.	cloneTemplate = function ()
+			{	var
+					clone=document.head.appendChild(this.cloneNode(true))
+				;	clone.id=this.id+"-"+(this.clones=this.clones||[]).push(clone)
+				;
+				var list = clone.getElementsByTagName("*");
+				for (var i=list.length;i--;)
+					if (list[i].id)
+					{	list[i].id = clone.id+"." + list[i].id.split(this.id+".").join("")
+						list[i].getElementById = document.getElementByNamespaceId
+					}
+				;
+				clone.getElementById=document.getElementByNamespaceId;
+				return document.head.removeChild(clone)
+			}
+		;
+		
+
+		
+	</script>
+
+</body>
+
+</html>

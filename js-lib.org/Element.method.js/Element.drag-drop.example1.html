@@ -1,0 +1,114 @@
+<html>
+
+<head>
+	<script lib src="Element.dragdrop.js"></script>
+	<script app> onload = function ()
+	{
+		
+		dragdrop.mode="attribute";
+
+	};
+	</script>
+	
+	<style>
+	
+	body div
+	{
+		border: 1px solid black; margin: 10px;
+	}
+	
+	[dd-parent]
+	{
+		float:left;width:30%
+	}
+	
+	[dd-parent="a"]
+	{
+		background: red
+	}
+	
+	[dd-parent="b"]
+	{
+		background: yellow
+	}
+	
+	[dd-parent="c"]
+	{
+		background: green
+	}
+	
+	[dd-child]
+	{
+		height: 50px;
+	}
+	</style>
+</head>
+<body>
+
+	<div dd-parent="a" >
+		<div dd-child="a b c" style="background:orange">
+			A B C
+		</div>
+		
+		<div dd-child="a b" style="background:blue">
+			A B
+		</div>
+		
+		<div dd-child="a c" style="background:green">
+			A C
+		</div>
+		
+		<div dd-child="a" style="background:black">
+			A
+		</div>
+		
+		<div dd-child="" style="background:yellow">
+		</div>
+	</div>
+	
+	<div dd-parent="b">
+		<div dd-child="a b c" style="background:orange">
+			A B C
+		</div>
+		
+		<div dd-child="a b" style="background:blue">
+			A B
+		</div>
+		
+		<div dd-child="b c" style="background:pink">
+			B C
+		</div>
+		
+		<div dd-child="b" style="background:white">
+			B
+		</div>
+		
+		<div dd-child="" style="background:yellow">
+		</div>
+	</div>
+	
+	<div dd-parent="c">
+		<div dd-child="a b c" style="background:orange">
+			A B C
+		</div>
+		
+		<div dd-child="a c" style="background:pink">
+			A C
+		</div>
+		
+		<div dd-child="b c" style="background:purple">
+			B C
+		</div>
+		
+		<div dd-child="c" style="background:grey">
+			C
+		</div>
+		
+		<div dd-child="" style="background:yellow">
+		</div>
+	</div>
+
+
+</body>
+
+</html>

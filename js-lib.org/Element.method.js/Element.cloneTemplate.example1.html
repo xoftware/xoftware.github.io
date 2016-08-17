@@ -1,0 +1,110 @@
+<html>
+<head>
+
+	<script application> onload = function (e)
+	{
+		var
+			template = document.getElementById('event')
+		,	data = 
+			[	["New York",  "November 5-8, 2015",   "Meet and Greet"]
+			,	["Detroit",   "November 5-8, 2015",   "Meet and Greet"]
+			,	["Boston",    "April 5-8, 2015",    "Meet and Greet"]
+			,	["Boston",    "November 5-8, 2015",   "Drink Coffee"]
+			,	["Boston",    "July 5-8, 2015",     "Drink Coffee"]
+			,	["Phoenix",   "December 5-8, 2015",   "Drink Coffee"]
+			,	["San Antonio", "August 5-8, 2015",   "Meet The Authors"]
+			,	["Boston",    "August 5-8, 2015",   "Getting Started"]
+			]
+		;
+
+		while
+		(	row = data.shift()
+		)	
+			{	var 
+					instance = document.body.appendChild(document.cloneTemplate.call(template))
+				;
+				
+				instance.getElementById('title').innerHTML = row[2];
+				instance.getElementById('location.city').innerHTML = row[0];
+				
+				instance[Id]('date').innerHTML = row[1];
+				instance[Id]('date.month').innerHTML = (row[1].split(' '))[0];
+				instance[Id]('date.day1').innerHTML = (row[1].split(' '))[1].charAt(0);
+			}
+		;
+	}
+	</script>
+
+</head>
+<body>
+
+	<div style='display:none' id="template-event">
+	<div id="event">
+
+				<span id='event.title'>TITLE</span>
+				<div class='panel panel-default event'>
+					<div class='row month-icon'>
+					  <div class='col-md-1 text-center'>
+						<span id='event.date.month'>DATE.MONTH</span>
+						  <br>
+						<span class='fa-stack fa-2x'>
+						<i class='fa fa-calendar-o fa-stack-2x'></i>
+						<strong class='fa-stack-1x calendar-text' id='event.date.day1'>DATE.DAY1</strong>
+						 </span>
+					  </div>
+					  <div class='col-md-6'>
+						  <h3 class='event-headers' id='event.date'>
+							DATE
+						  </h3>
+						  <h3 class='event-headers' id='event.location.city'>
+							LOCATION.CITY
+						  </h3> 
+					  </div>
+					  <div class='col-md-5 text-right'>
+						<a class='btn btn-lg btn-block btn-success' href='#'><i class='fa fa-pencil fa-2x'></i><strong>Register Now</strong></a>
+					  </div>
+					</div>
+				</div>
+				
+	</div>
+	</div>
+
+	<script polyfill>
+		;;;;;;;;;;;;;;
+		;	$ = document				;
+		;	Id = 'getElementById'		;
+						;;;;;;;;;;;;;;;;;
+
+		document
+		.	getElementByNamespaceId = function(){return document.getElementById(this.id+"."+arguments[0])}
+		;
+
+		document		
+		.	cloneTemplate = function ()
+			{
+			/*
+				//benchmark: 1 template/.7milliseconds
+				document.head.appendChild(document.createElement('div')).outerHTML = this.outerHTML.replace(new RegExp('id="('+this.id+')(.*?)"',"ig"), "id=\"$1-"+(this.clones=this.clones||[]).length+"$2\"");
+				this.clones.push(this.clone=document.getElementById(this.id+"-"+this.clones.length));
+				this.clone.getElementById=document.getElementByTemplateId;
+				return document.head.removeChild(this.clone)
+			*/
+				//benchmark: 2 templates/millisecond
+				(this.clone=document.head.appendChild(this.cloneNode(true))).id=this.id+"-"+(this.clones=this.clones||[]).push(this.clone);
+				
+				var list = this.clone.getElementsByTagName("*");
+				for (var i=list.length;i--;)
+					if (list[i].id)
+					{	list[i].id = this.clone.id+"." + list[i].id.split(this.id+".").join("")
+						list[i].getElementById = document.getElementByNamespaceId;
+					}
+				;
+				
+				this.clone.getElementById=document.getElementByNamespaceId;
+				return document.head.removeChild(this.clone)
+			}
+		;
+	</script>
+	
+</body>
+</html>
