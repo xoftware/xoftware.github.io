@@ -1,0 +1,1 @@
+[eval][0]("(function(){"+((this.temp.vars||"") + " var " + this.temp.component + " = this; " + arguments[0])+"})")
