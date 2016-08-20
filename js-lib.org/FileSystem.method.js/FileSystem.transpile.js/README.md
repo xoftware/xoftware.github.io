@@ -100,4 +100,4 @@ For example, a component like:
      "vars" : "..."
     }
 
-The "init" and "exit" functions would have their code and the code from "global.vars" 
+The "init" and "exit" functions would have their code and the code from "global.vars" if specifically told to do so.
