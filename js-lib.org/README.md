@@ -36,7 +36,7 @@ Drag & Drop Utility (with Attribute/Classname Parent/Child Tags)
 Settings Defaulting Utility (with Object Overlay/Fallback)
 
 ```javascript
-<script src="http://Object.default.js-lib.org"></script>
+<script src="http://Object.overlay.js-lib.org"></script>
 ```
 
 ### Function[method]
