@@ -1,7 +1,7 @@
 Object[method]
 ------------------------------------------
 
-#| Object.default
+#| Object.overlay
 
 ## Usage:
 
@@ -9,7 +9,7 @@ Object[method]
 
 ### DEFAULTING
 
- 1. `Object.template(cfgs.settings, cfgs.defaults);`
+ 1. `Object.overlay(settings, defaults);`
 
 ```
     function Favorites( settings )
