@@ -2,7 +2,7 @@
 \**/
 /**\	(c)	2014
 \**/
-Object.default = function
+Object.overlay = function
 (	table
 ,	template
 )	{	
