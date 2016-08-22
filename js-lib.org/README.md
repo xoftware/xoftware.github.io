@@ -8,11 +8,15 @@
 
 To *include* one, you can get it served directly from the *CDN* like so:
 
-    <script src="//Element.dragdrop.js-lib.org"></script>
+```html
+<script src="//Element.dragdrop.js-lib.org"></script>
+```
 
 You can just replace `Element.dragdrop.js` with the name of any other library, so it's:
 
-    <script src="//[WhateverLibrary].js-lib.org"></script>
+```html
+<script src="//[WhateverLibrary].js-lib.org"></script>
+```
 
 ---
 
