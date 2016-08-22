@@ -1,48 +1,44 @@
-# js-lib.org
-*JavaScript Libraries*
+#*JavaScript Libraries, Frameworks and Utilities.*
 
-## | LIBRARIES
+ > https://xoftware.github.io/js-lib.org/ or http://js-lib.org 
 
-Front-End JavaScript Library
 
-```javascript
-<script src="http://on.js-lib.org"></script>
-```
 
-Filesystem to JavaScript Framework Transpiler
+---
 
-```javascript
-<script src="http://fs.js-lib.org"></script>
-```
-	
-## | UTILITIES
+To *include* one, you can get it served directly from the *CDN* like so:
 
-### Element[method]
+    <script src="//Element.dragdrop.js-lib.org"></script>
 
-Template Cloning Utility (with Unique ID and SubComponent Namespaces)
+You can just replace `Element.dragdrop.js` with the name of any other library, so it's:
 
-```javascript    
-<script src="http://Element.cloneTemplate.js-lib.org"></script>
-```
+    <script src="//[WhateverLibrary].js-lib.org"></script>
 
-Drag & Drop Utility (with Attribute/Classname Parent/Child Tags)
+---
 
-```javascript
-<script src="http://Element.dragdrop.js-lib.org"></script>
-```
+**Comprehensive Front-End JS Library** - Cross-browser, Optimized, Scalable, ...
 
-### Object[method]
+> [on.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/on.js)
 
-Settings Defaulting Utility (with Object Overlay/Fallback)
+**FS to JS Framework Transpiler** - Define File Extension Handlers, Combine Assets, ...
 
-```javascript
-<script src="http://Object.overlay.js-lib.org"></script>
-```
+> [FileSystem.transpile.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/FileSystem.method.js/FileSystem.transpile.js)
 
-### Function[method]
+**Template Cloning Utility** - Similar to `Element.cloneNode`, But with Unique IDs and Namespaces
 
-Private Bind
+> [Element.cloneTemplate.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/Element.method.js)
 
-```javascript
-<script src="http://Function.privateBind.js-lib.org"></script>
-```
+**Drag & Drop Utility** - Parent/Child Tags `.attribute` or `.className`
+
+> [Element.dragdrop.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/Element.method.js)
+
+**Settings Defaulting Utility** - Object Overlay/Fallback
+
+> [Object.overlay.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/Object.method.js)
+
+**Private Bind** - Similar to `Function.bind`, But with private vars instead of public
+
+> [Function.privateBind.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/Function.method.js)
+
+---
+I am very passionate about UX/UI. All of these were created to enable others and myself to design. These are only tools, but not apps or designs, archived from my previous work. I'm sad that I don't have those to show, but perpetually dedicated, so looking forward to even better new ones in the future. Thank you! 
