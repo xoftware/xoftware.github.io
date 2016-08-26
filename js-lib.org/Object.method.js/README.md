@@ -31,4 +31,3 @@ Object[method]
     
     new Favorites( {"Foods":{"Pizza":"Cheese"}} );
 ```
-
