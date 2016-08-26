@@ -14,9 +14,9 @@ Object.overlay = function
 			
 			switch
 			(	Object.prototype.toString.call( template[i] )
-			)	{	case '[object Array]' : table[i] = Object.default(table[i]||[], template[i]);
+			)	{	case '[object Array]' : table[i] = Object.overlay(table[i]||[], template[i]);
 						break;
-					case '[object Object]': table[i] = Object.default(table[i]||{}, template[i]);
+					case '[object Object]': table[i] = Object.overlay(table[i]||{}, template[i]);
 				}	// TODO: Functions, RegExp, Date, etc.
 			
 			if (table[i] == void 0)
