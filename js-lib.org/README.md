@@ -1,6 +1,6 @@
 #*JavaScript Libraries, Frameworks and Utilities.*
 
- > https://xoftware.github.io/js-lib.org/ or http://js-lib.org 
+ > http://js-library.org [repo] - http://js-lib.org [demo]
 
 
 
@@ -40,7 +40,7 @@ You can just replace `Element.dragdrop.js` with the name of any other library, s
 
 > [Object.overlay.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/Object.method.js)
 
-**Private Bind** - Similar to `Function.bind`, But supports private vars instead of public
+**Private Bind** - Similar to `Function.bind`, But supports Private Vars instead of Public
 
 > [Function.privateBind.js](https://github.com/xoftware/xoftware.github.io/tree/master/js-lib.org/Function.method.js)
 
