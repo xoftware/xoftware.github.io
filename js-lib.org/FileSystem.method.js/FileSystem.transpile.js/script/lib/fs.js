@@ -179,8 +179,8 @@
                                 
                                 core.load.environments
                                 (   core.ajax.contents
-                                    (    self.directory + "/"
-                                    +    temp.component + "/"
+                                    (   self.directory + "/"
+                                    +   temp.component + "/"
                                     )
                                 );
                             }
