@@ -101,6 +101,3 @@ For example, a component like:
     }
 
 The "init" and "exit" functions would have their code and the code from "global.vars" if specifically told to do so.
-
-
-
