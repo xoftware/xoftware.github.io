@@ -146,14 +146,14 @@
                 ,   environments: function ( environments )
                     {    
                         var
-                            self =
+                            work =
                             {   directory    :    temp.directory
                             ,   component    :    temp.component
                             ,   namespace    :    temp.namespace
                             }
                         ;
                         
-                        if (self.namespace == window)
+                        if (work.namespace == self.framework)
                             environments.extensions.length = 0
                         ;
                         
@@ -162,7 +162,7 @@
                         )   {
                                 core.load.code
                                 (   core.ajax.extension
-                                    (   self.directory + "/"
+                                    (   work.directory + "/"
                                     +   temp.extension
                                     )
                                 );
@@ -172,14 +172,14 @@
                         while
                         (   temp.component = environments.components.shift()
                         )   {
-                                temp.namespace = self.namespace[self.component];
+                                temp.namespace = work.namespace[work.component];
                         
                                 temp.namespace[temp.component] =
                                 temp.namespace[temp.component] || new function Component(){};	//use *.info for Custom Types
                                 
                                 core.load.environments
                                 (   core.ajax.contents
-                                    (   self.directory + "/"
+                                    (   work.directory + "/"
                                     +   temp.component + "/"
                                     )
                                 );
