@@ -40,21 +40,38 @@
 
 ## Programming Hacks
 
-|	Generic					   |	Graphics		 	  |		Constructors		|
-|------------------------------|--------------------------|-------------------------|
-|	`asynchronous.be`            |	`axis.xyz`			  |		`new.xyz`			  	|
-| 	`do-while.one `              |						  |						  	|
-|	                           |						  |						  	|
-|	`while.life `                |						  |						  	|
-|	`async.be `                  |						  |						  	|
-|	                           |						  |						  	|
-|	`plus-plus.one `             |						  |						  	|
-|	`minus-minus.one `          |						  |						  	|
-|	                           |						  |						  	|
-|	`user.space `                |						  |						  	|
-|	`user.one `                  |						  |						  	|
+<table>
+<tr><td>
 
+### Generic
+
+	asynchronous.be
+	do-while.one
 	
+	while.life
+	async.be
+	
+	plus-plus.one
+	minus-minus.one
+	
+	user.space
+	user.one
+
+</td><td>
+
+### Graphics
+
+	axis.xyz
+
+</td><td>
+	
+### Constructors
+	
+	new.xyz
+	
+</td></tr>
+</table>
+
 ## Software
 
     kingdom.software
