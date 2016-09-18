@@ -36,14 +36,16 @@
 
 ## Christianity
 
-<table></r><td><h3>Generic</h3><pre><code>
+<table></r><td style="width:90%"><h3>Generic</h3><pre><code>
 i.live
 </code></pre></td></tr></table>
 
+
 ## Programming Hacks
 
+
 <table>
-	<tr><td>
+	<tr><td style="width:30%">
 		<h3>Generic</h3>
 		<pre><code>
 asynchronous.be
@@ -58,7 +60,7 @@ minus-minus.one
 user.space
 user.one
 		</pre></code>
-	</td><td>
+	</td><td style="width:30%">
 		<h3>Graphics</h3>	
 		<pre><code>
 axis.xyz
@@ -73,7 +75,7 @@ axis.xyz
 			
 			
 		</pre></code>
-	</td><td>	
+	</td><td style="width:30%">	
 		<h3>Constructors</h3>	
 		<pre><code>
 new.xyz
