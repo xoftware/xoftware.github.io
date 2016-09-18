@@ -42,17 +42,17 @@
 
 |	Generic					   |	Graphics		 	  |		Constructors		|
 |------------------------------|--------------------------|-------------------------|
-|	asynchronous.be            |	axis.xyz			  |		new.xyz			  	|
-| 	do-while.one               |						  |						  	|
+|	`asynchronous.be`            |	`axis.xyz`			  |		`new.xyz`			  	|
+| 	`do-while.one `              |						  |						  	|
 |	                           |						  |						  	|
-|	while.life                 |						  |						  	|
-|	async.be                   |						  |						  	|
+|	`while.life `                |						  |						  	|
+|	`async.be `                  |						  |						  	|
 |	                           |						  |						  	|
-|	plus-plus.one              |						  |						  	|
-|	minus-minus.one            |						  |						  	|
+|	`plus-plus.one `             |						  |						  	|
+|	`minus-minus.one `          |						  |						  	|
 |	                           |						  |						  	|
-|	user.space                 |						  |						  	|
-|	user.one                   |						  |						  	|
+|	`user.space `                |						  |						  	|
+|	`user.one `                  |						  |						  	|
 
 	
 ## Software
