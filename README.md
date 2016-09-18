@@ -46,8 +46,8 @@
 	while.life
 	async.be
 	
-	plus-plus.one
-	minus-minus.one
+	plus-equals.one
+	minus-equals.one
 	
 	user.space
 	user.one
