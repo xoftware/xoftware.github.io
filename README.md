@@ -36,7 +36,9 @@
 
 ## Christianity
 
-	i.live
+<table></r><td><h3>Generic</h3><pre><code>
+i.live
+</code></pre></td></tr></table>
 
 ## Programming Hacks
 
@@ -44,22 +46,22 @@
 	<tr><td>
 		<h3>Generic</h3>
 		<pre><code>
-			asynchronous.be
-			do-while.one
+asynchronous.be
+do-while.one
 				
-			while.life
-			async.be
+while.life
+async.be
 				
-			plus-plus.one
-			minus-minus.one
+plus-plus.one
+minus-minus.one
 				
-			user.space
-			user.one
+user.space
+user.one
 		</pre></code>
 	</td><td>
 		<h3>Graphics</h3>	
 		<pre><code>
-			axis.xyz
+axis.xyz
 			
 				
 			
@@ -74,7 +76,7 @@
 	</td><td>	
 		<h3>Constructors</h3>	
 		<pre><code>
-			new.xyz
+new.xyz
 			
 				
 			
