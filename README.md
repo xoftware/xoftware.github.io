@@ -36,63 +36,30 @@
 
 ## Christianity
 
-<table></r><td style="width:90%"><h3>Generic</h3><pre><code>
-i.live
-</code></pre></td></tr></table>
-
+	i.live
 
 ## Programming Hacks
 
+	asynchronous.be
+	do-while.one
+	
+	while.life
+	async.be
+	
+	plus-plus.one
+	minus-minus.one
+	
+	user.space
+	user.one
+	
+### Graphics
 
-<table>
-	<tr><td style="width:30%">
-		<h3>Generic</h3>
-		<pre><code>
-asynchronous.be
-do-while.one
-				
-while.life
-async.be
-				
-plus-plus.one
-minus-minus.one
-				
-user.space
-user.one
-		</pre></code>
-	</td><td style="width:30%">
-		<h3>Graphics</h3>	
-		<pre><code>
-axis.xyz
-			
-				
-			
-			
-				
-			
-			
-				
-			
-			
-		</pre></code>
-	</td><td style="width:30%">	
-		<h3>Constructors</h3>	
-		<pre><code>
-new.xyz
-			
-				
-			
-			
-				
-			
-			
-				
-			
-			
-		</pre></code>	
-	</td></tr>
-</table>
-
+	axis.xyz
+	
+### Constructors
+	
+	new.xyz
+	
 ## Software
 
     kingdom.software
