@@ -42,6 +42,7 @@
 
 	asynchronous.be
 	do-while.one
+	sudo.build
 	
 	while.life
 	async.be
