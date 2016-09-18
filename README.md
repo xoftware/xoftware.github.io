@@ -40,25 +40,20 @@
 
 ## Programming Hacks
 
-	asynchronous.be
-	do-while.one
-	
-	while.life
-	async.be
-	
-	plus-plus.one
-	minus-minus.one
-	
-	user.space
-	user.one
-	
-### Graphics
+|	Generic					   |	Graphics		 	  |		Constructors		|
+|------------------------------|--------------------------|-------------------------|
+|	asynchronous.be            |	axis.xyz			  |		new.xyz			  	|
+| 	do-while.one               |						  |						  	|
+|	                           |						  |						  	|
+|	while.life                 |						  |						  	|
+|	async.be                   |						  |						  	|
+|	                           |						  |						  	|
+|	plus-plus.one              |						  |						  	|
+|	minus-minus.one            |						  |						  	|
+|	                           |						  |						  	|
+|	user.space                 |						  |						  	|
+|	user.one                   |						  |						  	|
 
-	axis.xyz
-	
-### Constructors
-	
-	new.xyz
 	
 ## Software
 
