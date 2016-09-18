@@ -41,35 +41,32 @@
 ## Programming Hacks
 
 <table>
-<tr><td>
-
-### Generic
-
-	asynchronous.be
-	do-while.one
-	
-	while.life
-	async.be
-	
-	plus-plus.one
-	minus-minus.one
-	
-	user.space
-	user.one
-
-</td><td>
-
-### Graphics
-
-	axis.xyz
-
-</td><td>
-	
-### Constructors
-	
-	new.xyz
-	
-</td></tr>
+	<tr><td>
+		<h3>Generic</h3>
+		<pre><code>
+			asynchronous.be
+			do-while.one
+				
+			while.life
+			async.be
+				
+			plus-plus.one
+			minus-minus.one
+				
+			user.space
+			user.one
+		</pre></code>
+	</td><td>
+		<h3>Graphics</h3>	
+		<pre><code>
+			axis.xyz
+		</pre></code>
+	</td><td>	
+		<h3>Constructors</h3>	
+		<pre><code>
+			new.xyz
+		</pre></code>	
+	</td></tr>
 </table>
 
 ## Software
