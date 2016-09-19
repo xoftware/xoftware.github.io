@@ -94,24 +94,28 @@
 	js-config.org
 	
 	ui-app.org
+	ui-lib.org
 	ui-mod.org
 	ui-wid.org
 	ui-cfg.org
 	
 	ui-application.org
+	ui-library.org
 	ui-module.org
 	ui-widget.org
-	ui-config.org
+	ui-configuration.org
 	
 	ux-app.org
+	ux-lib.org
 	ux-mod.org
 	ux-wid.org
 	ux-cfg.org
 	
 	ux-application.org
+	ux-library.org
 	ux-module.org
 	ux-widget.org
-	ux-config.org
+	ux-configuration.org
 	
 ## Loveware
 	
