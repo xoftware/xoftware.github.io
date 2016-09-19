@@ -478,6 +478,14 @@
 	i-x3.io
 	cfgs.io
 	classname.io
-
+	unix3.xyz
+	linux3.xyz
+	younix.xyz
+	index3.xyz
+	x3yz.so
+	boxui.so
+	index3.so
+	box.xyz
+	box3yz.so
 
 
