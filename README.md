@@ -66,8 +66,8 @@
 	
 ## Software
 
-        kingdom.software
-        x3.software  
+	kingdom.software
+	x3.software  
 	kingdom.one
 
 ### Top-Level	
@@ -126,9 +126,15 @@
 	x3ware.love
 	x3ml.org
 	
+	x3ht.ml
+	x3ht.de
+	x3ml.xyz
+	
 	x3ml.io
 	x3ml.love
 	x3ware.org
+	
+
 
 ### Assets
 
@@ -148,6 +154,8 @@
 	younix.io
 	younix.su
 	
+	linux3.su
+
 	younix3.love
 	unix3.org
 	
@@ -173,9 +181,7 @@
 	
 
 	
-## UX/UI
-## User Experience
-## User Interface
+### UX/UI
 
 	youx.uk
 	youx.us
