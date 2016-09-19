@@ -82,6 +82,9 @@
 	lib64.org
 	xml.mx
 	
+	lib64.link
+	lib32.link
+	
 	lib32.org
 	lib32.so
 	
