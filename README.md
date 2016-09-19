@@ -42,6 +42,7 @@
 
 	asynchronous.be
 	do-while.one
+	configure.su
 	sudo.build
 	
 	while.life
@@ -53,6 +54,8 @@
 	user.space
 	user.one
 	
+	
+	
 ### Graphics
 
 	axis.xyz
@@ -63,8 +66,8 @@
 	
 ## Software
 
-    kingdom.software
-    x3.software  
+        kingdom.software
+        x3.software  
 	kingdom.one
 
 ### Top-Level	
@@ -140,6 +143,10 @@
 	ux3.in
 	
 	unix3.ml
+	unix3.su
+	unix3.io
+	younix.io
+	younix.su
 	
 	younix3.love
 	unix3.org
@@ -151,6 +158,7 @@
 	
 	i-x3.love
 	i-x3.org
+	iox3.su
 	iox3.org
 	iox3.love
 
@@ -433,5 +441,34 @@
 	for-each.one
 	for-each.in
 	for-each.name
+	while.su
+	object.su
+	asynchronous.su
+	synchronous.su
+	async.su
+	lib32.su
+	lib64.su
+	namespace.su
+	jrs.su
+	xoftware.su
+	ix3.su
+	ux3.su
+	lovex3.su
+	youx.su
+	youi.su
+	xoftware.io
+	youi.io
+	youx3.io
+	ux3ml.io
+	youx3ml.io
+	younix3.io
+	unix3ml.io
+	younix3ml.io
+	lib32.io
+	lib64.io
+	i-x3.io
+	cfgs.io
+	classname.io
+
 
 
