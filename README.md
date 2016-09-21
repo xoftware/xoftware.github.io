@@ -147,16 +147,16 @@
 
 ### Operating System
 
-	younix.io
+	younix.su
 	unix3.love
 	ux3.in
+	
+	you.nix3.su
+	younix.io
 	
 	unix3.ml
 	unix3.su
 	unix3.io
-	younix.io
-	younix.su
-	you.nix3.su
 	
 	linux3.su
 
