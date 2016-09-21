@@ -37,6 +37,8 @@
 ## Christianity
 
 	i.live
+	true.one
+	hope.love
 
 ## Programming Hacks
 
@@ -303,7 +305,6 @@
 	dove.sx
 	dove.cx
 	dove.love
-	hope.love
 	root.space
 	file.space
 	code.space
@@ -427,7 +428,6 @@
 	app.news
 	lib.one
 	hope.one
-	true.one
 	true.news
 	free.one
 	free.news
