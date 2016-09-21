@@ -488,5 +488,191 @@
 	index3.so
 	box.xyz
 	box3yz.so
+	
+	true.cool
+	love.care
 
+	true.family
+	
+	love.foundation
+	true.game
+	true.best
+	true.style
+	true.chat
+	true.design
+	true.global
+	
+	loveware.io
+	loveware.co
+	
+	loveware.build
+	loveware.xyz
+	
+	loveware.foundation
+	loveware.works
+	loveware.systems
+	loveware.tech
+	loveware.software
+	loveware.design
+	loveware.media
+	loveware.engineering
+	
+	loveware.global
+	loveware.host
+	
+	
+	loveware.rocks
+	loveware.plus
+	loveware.run
+	loveware.pro
+	loveware.link
+	loveware.la	
+	loveware.social
+	loveware.zone
+	
+	xoftware.xyz
+	xoftware.run
+	xoftware.love
+	xoftware.faith
+	xoftware.engineering
+	xoftware.engineer
+	xoftware.download
 
+	
+	you.xyz
+	you.social
+	
+	new.foundation
+	on.events
+	px.center
+	
+	px.pink
+	px.blue
+	px.red
+	px.show
+	px.life
+	px.design
+	px.cafe
+	
+	ux.foundation
+	ux.engineer
+	
+	ui.foundation
+	ui.center
+	ui.social
+	ui.guru
+	ui.plus
+	ui.engineer
+	ui.cafe
+	
+	dom.works
+	dom.foundation
+	dom.win
+	dom.software
+	dom.host
+	
+	box.xyz
+	box.design
+	
+	God.House
+	God.Foundation
+	God.Software
+	God.Graphics
+		
+	God.vision
+	God.style
+	God.studio
+	God.space
+	God.graphics
+	God.website
+	
+	God.Global
+	God.Gives
+	God.Green
+	God.Host
+	God.Online
+	
+	if.codes
+	if.properties
+	if.social
+	if.zone
+	if.works
+	if.center
+	if.cab
+	if.systems
+	if.computer
+	if.solutions
+	if.software
+	if.show
+	if.city
+	
+	su.cool
+	su.services
+	su.software
+	
+	sudo.services
+	sudo.social
+	sudo.cool
+	sudo.love
+	
+	xyz.events
+	xyz.productions
+	xyz.game
+	xyz.graphics
+	xyz.software
+	xyz.degree
+	
+	sys.events
+	
+	lib.build
+	lib.run
+	lib.services
+	
+	mod.game
+	
+	
+	x3.codes
+	x3.systems
+	x3.software
+	x3.digital
+	x3.team
+
+	x3.life
+	x3.zone
+	x3.world
+	x3.social
+	x3.foundation
+
+	x3.vision
+	x3.style
+	x3.works
+	x3.house
+	x3.town
+	x3.tools
+	x3.run
+	x3.pub
+	x3.plus
+	x3.news
+	x3.live
+	x3.care
+	x3.cafe
+	x3.city
+
+	x3.chat
+	x3.ltd
+	x3.fyi
+
+	x3.engineering
+
+	x3.rocks
+	x3.show
+	x3.blue
+	x3.guru
+	x3.study
+	x3.education
+	x3.academy
+	x3.expert
+	x3.computer
+	x3.domains
+	x3.vet
+	x3.top
