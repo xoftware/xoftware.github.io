@@ -73,7 +73,6 @@
 ## Software
 
 	kingdom.software
-	x3.software  
 	kingdom.one
 
 ### Top-Level	
@@ -139,6 +138,9 @@
 	x3ht.ml
 	x3ht.de
 	x3ml.xyz
+	
+	loveware.io
+	love.care
 	
 	x3.software
 	x3.codes
@@ -510,8 +512,7 @@
 	
 	
 	true.cool
-	love.care
-
+	
 	love.foundation
 	true.game
 	true.best
@@ -520,7 +521,6 @@
 	true.design
 	true.global
 	
-	loveware.io
 	loveware.co
 	
 	loveware.build
