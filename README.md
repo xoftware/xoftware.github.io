@@ -156,6 +156,7 @@
 	unix3.io
 	younix.io
 	younix.su
+	you.nix3.su
 	
 	linux3.su
 
