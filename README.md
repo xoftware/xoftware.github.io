@@ -39,14 +39,18 @@
 	i.live
 	true.one
 	hope.love
+	God.house
+	true.family
+	new.foundation
 
 ## Programming Hacks
 
 	asynchronous.be
+	on.events
 	do-while.one
 	configure.su
-	sudo.build
 	
+	sudo.build
 	while.life
 	async.be
 	
@@ -129,11 +133,16 @@
 	
 	love.software
 	x3ware.love
+	sudo.love
 	x3ml.org
-	
+
 	x3ht.ml
 	x3ht.de
 	x3ml.xyz
+	
+	x3.software
+	x3.codes
+	x3.care
 	
 	x3ml.io
 	x3ml.love
@@ -159,6 +168,13 @@
 	unix3.ml
 	unix3.su
 	unix3.io
+	
+	su.cool
+	sudo.services
+	
+	lib.build
+	lib.run
+	lib.services
 	
 	linux3.su
 
@@ -194,6 +210,9 @@
 	
 	youi.media
 	youx.cx
+	
+	ui.center
+	px.center
 	
 	uix3.us
 	uix3.love
@@ -489,11 +508,10 @@
 	box.xyz
 	box3yz.so
 	
+	
 	true.cool
 	love.care
 
-	true.family
-	
 	love.foundation
 	true.game
 	true.best
@@ -538,13 +556,8 @@
 	xoftware.engineer
 	xoftware.download
 
-	
 	you.xyz
 	you.social
-	
-	new.foundation
-	on.events
-	px.center
 	
 	px.pink
 	px.blue
@@ -558,7 +571,7 @@
 	ux.engineer
 	
 	ui.foundation
-	ui.center
+
 	ui.social
 	ui.guru
 	ui.plus
@@ -574,7 +587,6 @@
 	box.xyz
 	box.design
 	
-	God.House
 	God.Foundation
 	God.Software
 	God.Graphics
@@ -605,16 +617,13 @@
 	if.software
 	if.show
 	if.city
-	
-	su.cool
+
 	su.services
 	su.software
-	
-	sudo.services
+
 	sudo.social
 	sudo.cool
-	sudo.love
-	
+
 	xyz.events
 	xyz.productions
 	xyz.game
@@ -623,17 +632,10 @@
 	xyz.degree
 	
 	sys.events
-	
-	lib.build
-	lib.run
-	lib.services
-	
+
 	mod.game
-	
-	
-	x3.codes
+
 	x3.systems
-	x3.software
 	x3.digital
 	x3.team
 
@@ -654,7 +656,7 @@
 	x3.plus
 	x3.news
 	x3.live
-	x3.care
+
 	x3.cafe
 	x3.city
 
