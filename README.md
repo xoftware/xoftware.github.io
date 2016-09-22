@@ -50,6 +50,13 @@
 	do-while.one
 	configure.su
 	
+	flag.global
+	const.global
+	method.global
+	module.global
+
+	script.global
+	constant.global
 	sudo.build
 	while.life
 	async.be
