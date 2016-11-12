@@ -6,6 +6,7 @@
 ## Domains
 
       xoftware.org      | Christian Research Open Source Software
+         younix.su      | You-nix Operating System
           htde.org      | Hyper-text Desktop Environment
     simconsole.net      | Simulation Gaming Console
         js-lib.org      | [CDN Assets ] JavaScript Libraries
@@ -67,8 +68,6 @@
 	user.space
 	user.one
 	
-	
-	
 ### Graphics
 
 	axis.xyz
@@ -77,11 +76,56 @@
 	
 	new.xyz
 	
+### Operating System
+
+	su.cool
+	sudo.services
+	
+	lib.build
+	lib.run
+	lib.services
+	
+## Games
+	
+	goodgames.gg
+	goodfight.gg
+	
+	stellarena.gg
+	galaxyz.gg
+	
+	railjump.gg
+	slugjump.gg
+	
+	mecha.gg
+	
+	1on1.gg
+	2on2.gg
+	3on3.gg
+	4on4.gg
+	5on5.gg
+	6on6.gg
+	7on7.gg
+	
+	to7.gg
+	
 ## Software
 
 	kingdom.software
 	kingdom.one
-
+	
+	cube.so
+	xml.one
+	
+	hypertext.de.com
+	desktop.ht
+	
+	xml.de.com
+	xyz.de.com
+	xyz.ht
+	xml.ht
+	
+	nix.de.com
+	
 ### Top-Level	
 
 	org.graphics
@@ -156,8 +200,6 @@
 	x3ml.io
 	x3ml.love
 	x3ware.org
-	
-
 
 ### Assets
 
@@ -177,13 +219,6 @@
 	unix3.ml
 	unix3.su
 	unix3.io
-	
-	su.cool
-	sudo.services
-	
-	lib.build
-	lib.run
-	lib.services
 	
 	linux3.su
 
@@ -210,8 +245,6 @@
 	love-x3.org
 	lovex3.org
 	
-
-	
 ### UX/UI
 
 	youx.uk
@@ -226,11 +259,7 @@
 	uix3.us
 	uix3.love
 	youx3.love
-	
-	
-	
-	
-	
+
 #| Available Domains
 
 	x3.xyz
@@ -685,4 +714,78 @@
 	x3.domains
 	x3.vet
 	x3.top
+	
+	x3.ht
+	x3.is
+	x3.gl
+	x3.my
+	x3.ai
+	x3.fyi
+	
+	holyx3.com
+	holyx3.net
+	holyx3.org
+	
+	holyx3.one
+	holyx3.love
+	
+	cube.ht 
+	cube.ooo
+	xml.ooo 
+	
+	nix.ht
+	xyz.az 
+	
+## Domains
 
+### Hacks
+
+	.ht - HyperText
+	.md - MarkDown
+	.ml - MarkUp Language
+
+	.su - Super User
+	.de - Desktop Environment
+	.so - Shared Object
+	.sh - Shell Executable
+	.mk - Make Prefix
+	
+	.io - Input/Output
+	.id - Identifier
+	.do - while loop
+	.fi - endif
+
+	.my
+	.is
+	
+	.gg - Good Game
+	.ai - Artificial Intelligence
+	.qa - Questions & Answers | Quality Assurance
+	.cv - Cirriculum Vitae
+	.tm - TradeMark
+	
+### Global
+
+	.faith
+	.love
+	.one
+
+	.xyz
+	
+	.fail 
+	.cafe 	
+
+### Secondary
+
+	.de.com 
+	.su.com 
+	.com.qa 
+	.com.ai 
+	.com.my 
+	
+## KeyWords
+
+### Secondary
+	
+	box x3 nix xyz love ui youi
+	
