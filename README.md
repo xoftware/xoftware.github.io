@@ -90,6 +90,15 @@
 	goodgames.gg
 	goodfight.gg
 	
+	saving.gg
+	indie.gg
+	
+	sportsman.gg
+	sportsmen.gg
+	teamwork.gg
+	
+	GodParticles.gg
+	heavendust.gg
 	stellarena.gg
 	galaxyz.gg
 	
@@ -97,6 +106,9 @@
 	slugjump.gg
 	
 	mecha.gg
+	
+	1to1.gg
+	1vs1.gg
 	
 	1on1.gg
 	2on2.gg
@@ -107,6 +119,13 @@
 	7on7.gg
 	
 	to7.gg
+	
+	singleplayer.gg
+	player3.gg
+	player4.gg
+	player7.gg
+	
+	mmorpg.gg
 	
 ## Software
 
