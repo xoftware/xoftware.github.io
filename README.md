@@ -7,6 +7,7 @@
 
       xoftware.org      | Christian Research Open Source Software
          younix.su      | You-nix Operating System
+	  indie.gg      | Good Game Indie Studio
           htde.org      | Hyper-text Desktop Environment
     simconsole.net      | Simulation Gaming Console
         js-lib.org      | [CDN Assets ] JavaScript Libraries
