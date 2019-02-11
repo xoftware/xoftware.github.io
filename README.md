@@ -1,9 +1,9 @@
  xoftware.github.io
 -------
 
-Portfolio pending; 
+ > Portfolio pending
 
- #| Candidate Domains
+  # | Candidate Domains
 
 ### Hacks
 
